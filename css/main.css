@@ -1,0 +1,192 @@
+@CHARSET "UTF-8";
+
+body {
+    width: 99%;
+    background: #eaeaea url('../images/bg-body.png') repeat-x;
+    font-family: sans, sans-serif, arial, verdana ;
+    color: #333333;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 800px;
+    margin: 0px auto 0px auto;
+    padding-bottom: 10px;
+    background: #FFFFFF;
+}
+
+.footer {
+    width: 800px;
+    padding: 4px 22px 0px 0px;
+    margin: 0px auto 0px auto;
+    color: #999999;
+    font-size: 0.80em;
+    text-align: right;
+}
+
+.header {
+    background: url('../images/header-hebreo.png');
+    /*background: url('../images/header-bg.png') repeat-x;*/
+    /*background: url('../images/header-01.jpg');*/
+    /*background: #b269a4;*/
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    position: relative;
+    font-size: 2.8em;
+    top: 10px;
+    left: 20px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.header_signature {
+    position: relative;
+    font-size: 0.65em;
+    color: #888888;
+    left: 270px;
+}
+
+.main {
+    float: left;
+    padding: 0px 10px 0px 10px;
+    width: 510px;
+    /*
+    min-height: 300px;
+    height: auto !important;
+    height: 300px;
+    */
+}
+
+.sidebar {
+    float: left;
+    width: 250px;
+    padding: 0px 10px 0px 10px;
+}
+
+/*
+.presentation {
+  width: 800px;
+  margin: 10px auto 10px auto;
+}
+*/
+
+.slideshow {
+    width: 500px;
+    text-align: center;
+    background: #EEEEEE;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.slideshow_image {
+    height: 270px;
+    width: 480px;
+    margin: 0px auto 0px auto;
+}
+
+.slideshow img {
+    margin-top: 4px;
+    border: 0px;
+}
+
+.slideshow_comment {
+    position: relative;
+    top: 218px;
+    background: #000000;
+    color: #FFFFFF;
+    padding: 6px;
+    opacity: 0.7;
+    filter: alpha(opacity = 70);
+    text-align: left;
+}
+
+.slideshow_comment h3 {
+    margin: 0px;
+}
+
+.slideshow_comment span {
+    font-size: 0.9em;
+}
+
+.slideshow_selector a {
+    margin: 4px;
+}
+
+.slideshow_selector img {
+    border: 0px;
+    width: 72px;
+}
+
+.description {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    padding: 0px 8px 8px 8px;
+}
+
+.header_globe div {
+    width: 235px;
+    background: url('../images/tag-bg.png') repeat-x;
+    margin: 0px;
+    /*color: #b269a4;*/
+    /*color: #1A4D7F;*/
+    color: #FFFFFF;
+    padding: 4px 8px 2px 8px;
+}
+
+.header_globe h4 {
+    margin: 0px;
+}
+
+.header_globe span {
+    font-size: 0.7em;
+    margin: 0px;
+    vertical-align: top;
+}
+
+.header_globe img {
+    margin-left: 15px;
+    vertical-align: top;
+}
+
+.contact {
+    font-size: 0.82em;
+    padding: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #1A4D7F;
+    font-weight: bold;
+}
+
+.tour_historical_data {
+    font-size: 0.8em;
+    background: #EEEEEE;
+    padding: 10px;
+}
+
+.tour_historical_data h3 {
+    color: #1A4D7F;
+    margin: 0px;
+}
+
+.tour_description {
+    font-size: 0.8em;
+    /*float: right;*/
+    /*background: #DAAFB6;*/
+    /*background: #7197ba;*/
+    background: #D8EFF5;
+    width: 230px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.tour_description h3 {
+    margin: 0px;
+}
